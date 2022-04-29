@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Poppins&family=Roboto+Condensed:wght@300&display=swap');
+
+
+body {
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(
+        rgba(77, 5, 130, 0.5),
+        rgba(77, 5, 130, 0.5)
+    ),
+    url("../img/image.jpg");
+    font-family: 'Poppins', sans-serif;
+
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    background-color: rgba(70, 5, 130,0.7);
+    text-align: left;
+    padding: 40px 0 40px 40px;
+    margin-bottom: 50px;
+    
+}
+
+label {
+    display: block;
+}
+
+.form-label {
+    font-size: 23px;
+    color: white;
+}
+
+.form-field, #role, #favorite {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+}
+
+.form-field::placeholder {
+    font-size: 15px;
+}
+
+option, select {
+    font-size: 15px;
+    color: #75758A;
+}
+
+label {
+    font-size: 20px;
+    color: aliceblue;
+}
+textarea {
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+textarea::placeholder {
+    font-size: 1.5rem;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: green;
+}
